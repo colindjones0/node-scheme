@@ -1,4 +1,4 @@
-import { VALUE } from './index.js';
+import { VALUE } from '../src/index.js';
 
 describe('VALUE', () => {
     it('should be 10', () => {
