@@ -1,0 +1,26 @@
+{
+  "name": "node-scheme",
+  "version": "1.0.0",
+  "description": "A scheme interpreter.",
+  
+  "_comment_main:": [
+    "The main entry point for the application.",
+    "Specifies the file that is loaded when this package is imported."
+  ],
+  "main": "index.js",
+
+  "_comment_scripts:": [
+    "The main entry point for the application.",
+    "Specifies the file that is loaded when this package is imported."
+  ],
+  "scripts": {
+    "_comment_start:": [
+        "'start' is recognized in as part of a special npm lifecycle.",
+        "So 'npm start' can trigger this script, instead of 'npm run start'"
+    ],
+    "start": "node index.js"
+  },
+  "author": "Colin D. Jones",
+  "license": "ISC"
+}
+
